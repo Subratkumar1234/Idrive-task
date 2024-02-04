@@ -1,0 +1,421 @@
+  header{ 
+    background-color:#6495ED;
+    color: white;  
+    height: 20rem;
+    flex-wrap: wrap;
+}
+.Logo{
+    width: 60px;
+    height: 20px;
+    margin-left: -330px;
+}
+.NavBar{
+    display: flex;
+    justify-content: center;
+    padding-left:342px;
+    padding-top: 20px;
+    border-bottom:0.4px solid #d1d1d1 ; 
+    padding-bottom: 20px;
+    
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-size:0.7rem; 
+    padding-left: 42px;
+    font-weight: bold;
+    position: relative;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+}
+.Title{
+    padding-left: 250px;
+    color: white;
+    font-size: 1rem;
+    position: absolute;
+    padding-top: 16px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+@media screen and (max-width:1000px){
+   .NavBar-container{
+    flex-direction: column;
+   }
+   .NavBar{
+    flex-direction: column;
+   }
+   .h-nav-res{
+     height: 72px; 
+   }
+   .rightnav{
+    text-align: center;
+   }
+} 
+
+
+main{
+    background-color:white;
+    width: 620px;
+    height: 300px;
+    border-radius: 12px;
+    margin-left: 250px;
+    margin-top: 92px;
+    position: relative;
+    box-shadow: 2px 2px 2px rgb(65, 55, 55);
+}
+.query{
+    padding-left: 12px;
+    font-weight: 200;
+    padding-top: 20px;
+    color: skyblue;
+    font-size: 14px;
+}
+.countriesdetails{
+    background-color: rgba(252, 219, 205, 0.527);
+    position: absolute;
+    top: 61.5px;
+    border-radius: 12px;
+    border-top-left-radius:0px;
+    border-bottom-left-radius: 0px;
+    width: 380px;
+    height: 100px;
+}
+.countries{
+    display: flex;
+    justify-content:flex-start;
+    font-size: 12px;
+    margin-left: -28px;
+   
+}
+.country{
+    color: rgba(53, 3, 3, 0.356);
+    border: 2px dotted rgb(160, 153, 153);
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+}
+.countriesNumber{
+    color: rgb(247, 157, 157);
+    border: 2px dotted rgb(163, 150, 150);
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    padding-right: 15px;
+}
+.countryes{
+    color: rgba(53, 3, 3, 0.356);
+    border-left: none;
+    
+}
+.countriesNumbers{
+    color: rgb(247, 157, 157);
+    border-left:none;
+    padding-right: 15px;
+}
+.country-support{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.5rem;
+    margin-top: 23px;
+    color: rgb(131, 124, 124);
+    position: relative;
+}
+.technical{
+    padding: 3px;
+    font-size: 5px;
+    margin-left:12px;
+
+}
+.bill{
+    border: 1px dotted black;
+    padding: 3px;
+    font-size: 5px;
+    margin-right:112px;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+}
+.girls{
+    width: 252px;
+    height: 350px;
+    position: absolute;
+    padding-left:370px;
+    top: -185px;
+}
+.dial-num{
+    display: flex;
+    color: #998e8e;
+    margin-top: 40px;
+    line-height: 8px;
+    font-size: 10px;
+    margin-left: -30px;
+}
+.color{
+    color: #ea9c72;
+    margin: 2px;
+}
+.blue{
+    color: rgb(152, 206, 228);
+}
+.resslers{
+    border: 1px dotted black;
+    margin-left: 53px;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    
+}
+.endingparagraph{
+    color:rgb(184, 175, 175);
+    font-size: 8px;
+    margin-left: 10px;
+}
+.idrive a{
+    color: skyblue;
+    text-decoration: none;
+    position: relative;
+}
+
+section{
+   background-color: rgba(227, 235, 243, 0.87);
+   height: 470px;
+   position: absolute;
+   width: 98.5%;
+margin-top: 180px;
+}
+
+.Idrivecontainer {
+    display: flex;
+    justify-content: center;
+    margin-right: 280px;
+}
+dt a{
+    text-decoration: none;
+    
+    
+    color: rgb(153, 148, 148);
+    font-size: 10px;
+    padding-right: 100px;
+}
+.validation-container {
+    display: flex;
+    justify-content: center;
+    padding-right: 160px;
+    margin-right: 270px;
+   
+}
+select{
+    width: 170px;
+}
+ol li{
+    padding: 10px;
+    list-style: none;
+    font-size: 0.6rem;
+    
+}
+
+.text-container{
+    display: flex;
+    justify-content: center;
+    padding-right: 260px;
+    font-size: 0.8rem;
+    margin-right: 270px;
+   
+}
+.textnewcontainer{
+    display: flex;
+    justify-content: center;
+    padding-right: 120px;
+    margin: 5px;
+    margin-right: 280px;
+    
+    
+}
+textarea{
+    width: 375px;
+    height: 100px;
+}
+.btn{
+    background-color: #5584db;
+    color: aliceblue;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 265px;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.6rem;
+    width: 150px;
+    height: 25px;
+    border-radius: 4px;
+}
+.middlesection{
+    position: absolute;
+    top: 975px;
+    background-color:rgb(255, 255, 255);
+    width: 98.5%;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    margin-right: 90px;
+    gap: 2px;
+}
+.resources,.faq{
+    margin-top:35px ;
+    width:300px;
+    background-color:whitesmoke;
+    height: 150px;
+    margin-left: 12px;
+    border-radius: 5px;
+    margin-right: 90px
+}
+dl{
+    margin-top: 8px;
+}
+dt{
+    border-bottom: 2px dotted gainsboro;
+    padding-bottom: 8px;
+    
+}
+.resource,.faq{
+    margin-left:22px;
+    color: rgb(10, 186, 255);
+    font-size: 16px;
+}
+.logoSec-1{
+    display: flex;
+    justify-content: center;
+    padding: 6px;
+    margin-top: 12px;
+    gap: 30px;
+    font-size: 10px;
+}
+.subtitle{
+    margin-top: 5px;
+    color: #000;
+}
+
+.logoSec-2{
+    display: flex;
+    justify-content: center;
+    padding: 6px;
+    margin-top: 12px;
+    gap: 30px;
+    font-size: 10px;
+}
+
+/*Header End */
+
+
+footer{
+    
+    margin-top: 850px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(20, 7, 7);
+    color:rgb(136, 130, 120);
+    padding-left:124px;
+    padding-right: 282px;
+}
+ul li{
+    list-style: none;
+    
+}
+
+li{
+    font-size: 0.5rem;
+    padding: 2px;
+    
+    
+}
+.footer-heading{
+    padding-top:12px;
+    padding-bottom: 12px;
+    color: rgb(165, 159, 159);
+    font-size: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    header {
+      height: auto;
+      padding: 10px;
+    }
+  
+    .NavBar {
+      padding-left: 0;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .Logo {
+      margin-left: 0;
+    }
+  
+    .Title {
+      padding-left: 0;
+      margin-top: 10px;
+    }
+  
+    main {
+      margin-left: 10px;
+    }
+  
+    .countriesdetails {
+      width: auto;
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  
+    .countries,
+    .country-support,
+    .dial-num,
+    .endingparagraph {
+      flex-direction: column;
+    }
+  
+    section {
+      margin-right: 10px;
+      position: absolute;
+      margin-top:50px ;
+    }
+  .girls{
+    width: 250px;
+    height: 235px;
+  }
+    .Idrivecontainer,
+    .validation-container {
+      margin-right: 10px;
+    }
+  
+    select {
+      width: 100%;
+    }
+  
+    .text-container,
+    .textnewcontainer {
+      padding-right: 0;
+      margin-right: 0;
+    }
+  
+    .btn {
+      margin-left: 10px;
+    }
+  
+    .middlesection {
+       top: 925px; 
+      margin-right: 10px;
+    }
+  
+    .resources,
+    .faq {
+      margin-left: 0;
+      margin-right: 10px;
+    }
+  
+    footer {
+      margin-top: 360px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+
+ 
